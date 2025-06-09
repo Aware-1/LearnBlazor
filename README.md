@@ -13,13 +13,19 @@ DefaultLayout -> main layout -> @body (renderBode همون)
 page -> routable component  =>  HAVE @page(همون ادرس)
 iner component -> noun Routable component
 ---------------
+
+render mode??????????????
+--------------
 Directivr
 ------------
 event
 ------
-parameter in URL=> if u wanna use parameter first "server/{is:int?}" next write prop With same name and [parameter]
+parameter in URL=> if u wanna use parameter first "server/{is:int?}" next write prop With same name and [parameter][supplyParemeterFromQuery]
 ? means allow null
 
+
+[parameter] حتی بخوای تو در تو کامپوننت بسازی باید از این طریق صداش بزنی
 override onParameterSet()
 
 <EditForm   Medel=""    FormName=""  onsubmit=""> 
+        StateHasChanged(); // اجباری برای به‌روزرسانی UI
