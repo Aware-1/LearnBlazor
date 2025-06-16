@@ -29,3 +29,6 @@ override onParameterSet()
 
 <EditForm   Medel=""    FormName=""  onsubmit=""> 
         StateHasChanged(); // اجباری برای به‌روزرسانی UI
+
+نمیزاره html رو بخونه
+ @(message) 
